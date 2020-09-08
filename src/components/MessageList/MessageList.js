@@ -123,7 +123,7 @@ class MessageList extends PureComponent {
       this.setState({ newMessagesNotification: true });
     }
 
-    if (
+    if (currentLastMessage &&
       currentLastMessage.silent &&
       currentLastMessage.text &&
       Math.abs(new Date() - new Date(currentLastMessage.created_at)) < 15000
