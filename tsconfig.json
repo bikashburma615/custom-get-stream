@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "outDir": "./built",
+    "allowJs": true,
+    "target": "es5",
+    "jsx": "react",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "baseUrl": ".",
+    "declaration": true,
+    "declarationDir": "./built/types",
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "noEmitOnError": true,
+    "lib": ["es2015", "dom"],
+    "paths": {
+      "*": ["src/@types/*"],
+      "types": ["types/index.d.ts"]
+    }
+  },
+  "include": ["./src/**/*"]
+}
