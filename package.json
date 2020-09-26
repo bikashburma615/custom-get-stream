@@ -104,8 +104,6 @@
     "htmlparser2": "^4.1.0",
     "husky": "^4.2.5",
     "jest": "^26.1.0",
-    "node-sass": "=4.12.0",
-    "node-sass-import": "^2.0.1",
     "postcss-loader": "^3.0.0",
     "prettier": "^2.0.5",
     "react-styleguidist": "^11.0.8",
